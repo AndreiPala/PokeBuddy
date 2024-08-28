@@ -16,3 +16,4 @@ We want to make some sort of paint app that uses the graphic functions from the 
 + to save the current frame;
 + to start a new frame;
 + when saving the frame, 3 files should be created, a png, a text file with the values of the pixels and another text one that contains the instructions for the MCU;
++ when clicking on a shape, that shape remains selected, a menu will appear with the values for calling the function for that shape, but the user will be able to use the click to make those shapes, e.g. user presses *fill rectangle*, then click at (30, 45), then at (40, 50) -> fill rectangle(30,45, 40-30, 50-45, color);
